@@ -1,0 +1,272 @@
+/****************************/
+/* CODE DE MISE EN PAGE CSS */
+/****************************/
+
+
+
+/* Tablette */
+
+@media (max-width: 750px)
+{
+    nav div.langages
+    {
+        width: 10%;
+        height: 100%;
+        margin-right: 0.5vw;
+
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    nav div.langages button
+    {
+        margin: 0.15em 0;
+    }
+
+    nav div.langages button:first-child
+    {
+        margin-left: 0;
+    }
+} 
+
+
+/* Mobile - Grand */
+
+@media (max-width: 575px)
+{
+    nav
+    {
+        flex-direction: column;
+    }
+
+    nav div.icone, nav div.icone a
+    {
+        width: 10em;
+        height: 4em;
+
+        order: 1;
+    }
+
+    nav div.liens
+    {
+        width: 90%;
+        height: 3em;
+
+        flex-direction: column;
+        order: 2;
+    }
+
+    nav div.liens ul
+    {
+        height: 100%;
+    }
+
+    nav div.langages
+    {
+        width: 6em;
+        height: 3em;
+
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        order: 3;
+    }
+
+    nav div.langages button
+    {
+        width: 40%;
+    }
+}
+
+
+/* Mobile - Petit */
+
+@media (max-width: 460px)
+{
+    nav
+    {
+        height: 100%;
+        margin: 0;
+    }
+
+    nav div.icone img
+    {
+        margin: 0 10%;
+    }
+
+    nav div.liens
+    {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    nav div.liens ul
+    {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    nav div.liens ul li
+    {
+        padding: 0.5em 0;
+    }
+
+    nav div.langages
+    {
+        justify-content: center;
+    }
+
+    nav div.langages button
+    {
+        width: 2em;
+        margin: 0 0.5em;
+    }
+
+    nav div.langages button:first-child
+    {
+        margin-right: 0;
+    }
+
+    header div.baniere-principale
+    {
+        height: 21.25em;
+    }
+
+
+    section div.bloc-1 h1
+    {
+        font-size: clamp(2em, 10vw, 3em);
+    }
+
+    section div.bloc-2 article.slogan
+    {
+        margin-top: 3em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    section div.bloc-2 article.slogan h2
+    {
+        overflow-y: hidden;
+        line-height: 1em;
+        right: 0;
+    }
+
+    section div.bloc-2 article.slogan p
+    {
+        line-height: 1.5em;
+        left: 0;
+    }
+
+    section div.bloc-2 div.textes div p
+    {
+        margin: 0;
+        
+    }
+
+    section div.bloc-2 div
+    {
+        flex-direction: column;
+    }
+
+    section div.bloc-2 article.desc div.textes div
+    {
+        text-align: center;
+        font-size: 1.5em;
+        margin: 0.5em 0;
+    }
+    section div.bloc-2 article.desc div.textes div.texte-1
+    {
+        left: 0;
+    }
+
+    section div.bloc-2 article.desc div.textes div.texte-2
+    {
+        right: 0;
+    }
+
+    section div.bloc-2 article.desc div.textes
+    {
+        margin-bottom: 1.5em;
+    }
+
+    section div.bloc-3
+    {
+        height: 100%;
+    }
+
+    section div.bloc-3 ul.raccourcis
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section div.bloc-3 ul.raccourcis li
+    {
+        font-size: 0.5em;
+        padding: 2em 0;
+    }
+
+
+    footer
+    {
+        height: 93em;
+    }
+
+    footer h3.pied
+    {
+        font-size: 3.5em;
+        margin-bottom: 2em;
+    }
+
+    footer div.contact
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div.contact div
+    {
+        height: 10em;
+
+        width: 60%;
+        margin: 0.5em 0;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    footer div.contact div h4
+    {
+        font-size: 2.5em;
+        
+    }
+
+    footer div.contact div p
+    {
+        font-size: 2em;
+        margin: 0.5em 0;
+    }
+
+    footer div.contact div.addresse
+    {
+        border: none;
+        border-top: 1px solid rgb(225, 225, 225);
+        border-bottom: 1px solid rgb(225, 225, 225);
+        
+        height: 20em;
+        margin: 5em 0;
+    }
+
+    footer p.trademark
+    {
+        font-size: 1.5em;
+        height: 2em;
+        margin-top: 7.5em;
+        padding: 2em 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
