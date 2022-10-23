@@ -55,11 +55,13 @@
     <meta name="description" content="<?= $descs[$page]; ?>">
     <meta name="robots" content="noindex, nofollow">
     <meta name="author" content="Guillaume Vézina">
-    <title>Chez Maurice - <?= $titre[$page]; ?></title>
+    <title>Chez Patrice - <?= $titre[$page]; ?></title>
 
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/media.css">
+
+    <link rel="Shortcut icon" type="image/x-icon" href="img/1-Entete/Icone.png">
 </head>
 
 <body>
@@ -93,7 +95,7 @@
         </nav>
         
         <div class="baniere-principale">
-            <img class="entete" src="../img/1-Entete/Logo.png">
+            <img class="banniere" src="../img/1-Entete/Bar.jpg">
         </div>
     </header>
 </html>

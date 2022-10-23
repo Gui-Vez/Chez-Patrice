@@ -195,7 +195,7 @@ header div.baniere-principale
 
 
     background-color: rgb(0, 0, 0);
-    background-image: url(../img/2-Description/Bar.jpg);
+    background-image: url(../img/1-Entete/Bar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -339,7 +339,7 @@ section div.bloc-2 article.desc div.texte-2
 
 section div.bloc-2 article.desc div.image-1
 {
-    background-image: url(../img/1-Entete/Entete.jpg);
+    background-image: url(../img/2-Description/Entete.jpg);
     background-size: cover;
 /*    background-position-y: 20%;*/
     background-position: 0 20%;
@@ -356,7 +356,7 @@ section div.bloc-2 article.desc div.image-2
 section div.bloc-2 article.desc img
 {
     width: 100%;
-    max-height: 20em;
+    max-height: 50em;
     visibility: hidden;
 }
 

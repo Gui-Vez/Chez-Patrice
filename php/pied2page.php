@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <p class="trademark"><?= $pp_trademark ?> &copy;<?= date("Y"); ?> - Guillaume Vézina</p>
+        <p class="trademark"><?= $pp_trademark ?> <br>&copy;<?= date("Y"); ?> - Guillaume Vézina</p>
     </footer>
 </body>
 
