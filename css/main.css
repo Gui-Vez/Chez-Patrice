@@ -309,7 +309,7 @@ section div.bloc-2 article.desc div.textes div
 section div.bloc-2 article.desc p
 {
 /*    font-size: clamp(0.6em, 2vw, 1.5em);*/
-    font-size: clamp(0.6em, 2vw, 1.3em);
+    font-size: clamp(0.6em, 2vw, 1.9em);
     line-height: 1.75em;
 }
 
@@ -356,7 +356,8 @@ section div.bloc-2 article.desc div.image-2
 section div.bloc-2 article.desc img
 {
     width: 100%;
-    max-height: 50em;
+    max-height: 60em;
+    min-height: 10em;
     visibility: hidden;
 }
 
