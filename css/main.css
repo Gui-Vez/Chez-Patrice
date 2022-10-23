@@ -436,7 +436,7 @@ footer
     text-align: center;
     font-size: 2vw;
 
-    height: 24.6em;
+    height: 25em;
 
     display: flex;
     flex-direction: column;
@@ -491,4 +491,5 @@ footer div.contact div.addresse
 footer p.trademark
 {
     opacity: 0.75;
+    line-height: 1.5em;
 }

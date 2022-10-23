@@ -66,8 +66,8 @@ $pp_tel_p     = "(555) 555-5556";
 
 // Adresse
 $pp_add_h4    = "Adress";
-$pp_add_p1    = "1997 avenue Jean-Jacques";
-$pp_add_p2    = "Saint-Popo des Meumeus, Québec";
+$pp_add_p1    = "1997 Jean-Jacques avenue";
+$pp_add_p2    = "Saint-Popo des Meumeus";
 
 // Courriel
 $pp_cou_h4    = "Email";
